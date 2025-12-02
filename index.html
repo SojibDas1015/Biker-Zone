@@ -18,6 +18,7 @@
         @theme {
         --color-biker: #E76F51;
         --color-biker-bg: rgba(231, 111, 81, 0.1);
+        --color-biker-text: #23A6F0;
       }
     </style>
 </head>
@@ -69,7 +70,8 @@
                         <div class="space-y-4 flex-1">
                             <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4
                                 <br>
-                                with Smile</h1>
+                                with Smile
+                            </h1>
                             <p class="text-xs font-light">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-biker text-md font-semibold">Purchase</button>
@@ -89,7 +91,8 @@
                         <div class="space-y-4 flex-1">
                             <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4
                                 <br>
-                                with Smile</h1>
+                                with Smile
+                            </h1>
                             <p class="text-xs font-light">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-biker text-md font-semibold">Purchase</button>
@@ -109,7 +112,8 @@
                         <div class="space-y-4 flex-1">
                             <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4
                                 <br>
-                                with Smile</h1>
+                                with Smile
+                            </h1>
                             <p class="text-xs font-light">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn bg-biker text-md font-semibold">Purchase</button>
@@ -126,8 +130,144 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="w-[95%] md:container mx-auto xl:px-20">
+        <!-- featured bike -->
+        <section class="mb-25">
+            <h1 class="text-4xl font-bold text-center mt-28 mb-14">Fetured Bikes In This Year</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-8">
+                <img class="grayscale-100" src="images/Rectangle 4637 1.png" alt="">
+                <img src="images/Rectangle 4637 2.png" alt="">
+                <img class="grayscale-100" src="images/Rectangle 4637 3.png" alt="">
+            </div>
+        </section>
 
+        <!-- news -->
+        <section class="mb-25">
+            <h1 class="text-4xl font-bold text-center mt-28 mb-14">latest News</h1>
+            <!-- card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- card 1 -->
+                <div class="card">
+                    <figure>
+                        <img class="w-full" src="images/others/latest1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn bg-biker text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card">
+                    <figure>
+                        <img class="w-full" src="images/others/latest2.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Motorcycles & Scooters</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn border-1 border-biker text-biker">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card">
+                    <figure>
+                        <img class="w-full" src="images/others/latest3.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">2021 Honda CBR500R</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn border-1 border-biker text-biker">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- happy client -->
+        <section class="mb-25">
+            <h1 class="text-4xl font-bold text-center mt-28 mb-14">Happy <span class="text-biker">Clients says</span>
+            </h1>
+            <!-- card -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-9">
+                <!-- card 1 -->
+                <div class="space-y-3 border-1 border-gray-300 rounded-md flex flex-col items-center text-center px-7 py-8">
+                    <div class="avatar">
+                        <div class="w-24 rounded-full">
+                            <img src="images/others/user-1.png" />
+                        </div>
+                    </div>
+                    <p class="text-center">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div class="w-4 flex justify-center">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-regular.svg" alt="">
+                    </div>
+                    <p class="text-biker-text">Regina Miles</p>
+                    <p>Banker</p>
+                </div>
+                <!-- card 2 -->
+                <div class="space-y-3 border-1 border-gray-300 rounded-md flex flex-col items-center text-center px-7 py-8">
+                    <div class="avatar">
+                        <div class="w-24 rounded-full">
+                            <img src="images/others/user-2.png" />
+                        </div>
+                    </div>
+                    <p class="text-center">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div class="w-4 flex justify-center">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-regular.svg" alt="">
+                    </div>
+                    <p class="text-biker-text">Regina Miles</p>
+                    <p>Banker</p>
+                </div>
+                <!-- card 3 -->
+                <div class="space-y-3 border-1 border-gray-300 rounded-md flex flex-col items-center text-center px-7 py-8">
+                    <div class="avatar">
+                        <div class="w-24 rounded-full">
+                            <img src="images/others/user-3.png" />
+                        </div>
+                    </div>
+                    <p class="text-center">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div class="w-4 flex justify-center">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-solid.svg" alt="">
+                        <img class="w-full" src="images/icons/star-regular.svg" alt="">
+                    </div>
+                    <p class="text-biker-text">Regina Miles</p>
+                    <p>Banker</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
